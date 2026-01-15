@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Payroll</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="top-header">
+    <h1>Employee Payroll</h1>
+  </header>
+
+  <div class="form-content">
+    <form class="form" id="payrollForm">
+
+      <div class="form-head">
+        Employee Payroll Form
+      </div>
+
+      <div class="row-content">
+        <label class="label text" for="name">Name</label>
+        <input class="input" type="text" id="name" name="name" placeholder="Your name..." required />
+      </div>
+
+      <div class="row-content">
+        <label class="label text">Profile Image</label>
+
+        <div class="profile-radio-content">
+          <label>
+            <input type="radio" name="profile" value="assets/profile-1.png" required />
+            <img class="profile" src="assets/profile-1.png" alt="profile1" />
+          </label>
+
+          <label>
+            <input type="radio" name="profile" value="assets/profile-2.png" required />
+            <img class="profile" src="assets/profile-2.png" alt="profile2" />
+          </label>
+
+          <label>
+            <input type="radio" name="profile" value="assets/profile-3.png" required />
+            <img class="profile" src="assets/profile-3.png" alt="profile3" />
+          </label>
+
+          <label>
+            <input type="radio" name="profile" value="assets/profile-4.png" required />
+            <img class="profile" src="assets/profile-4.png" alt="profile4" />
+          </label>
+        </div>
+      </div>
+
+      <div class="row-content">
+        <label class="label text">Gender</label>
+        <div class="choice-row">
+          <label class="choice-item">
+            <input type="radio" name="gender" value="Male" required />
+            <span class="text">Male</span>
+          </label>
+
+          <label class="choice-item">
+            <input type="radio" name="gender" value="Female" required />
+            <span class="text">Female</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row-content">
+        <label class="label text">Department</label>
+        <div class="choice-row wrap">
+          <label class="choice-item">
+            <input type="checkbox" name="department" value="HR" />
+            <span class="text">HR</span>
+          </label>
+
+          <label class="choice-item">
+            <input type="checkbox" name="department" value="Sales" />
+            <span class="text">Sales</span>
+          </label>
+
+          <label class="choice-item">
+            <input type="checkbox" name="department" value="Finance" />
+            <span class="text">Finance</span>
+          </label>
+
+          <label class="choice-item">
+            <input type="checkbox" name="department" value="Engineer" />
+            <span class="text">Engineer</span>
+          </label>
+
+          <label class="choice-item">
+            <input type="checkbox" name="department" value="Others" />
+            <span class="text">Others</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row-content">
+        <label class="label text" for="salary">Salary</label>
+
+        <div class="salary-box">
+          <input class="range" type="range" id="salary" name="salary" min="10000" max="100000" step="1000" value="40000" />
+          <div class="salary-value">
+            ₹ <span id="salaryValue">40000</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-content">
+        <label class="label text">Start Date</label>
+
+        <div class="date-select-box">
+          <select class="select" id="day" name="day" required></select>
+          <select class="select" id="month" name="month" required>
+            <option value="">Month</option>
+            <option value="Jan">January</option>
+            <option value="Feb">February</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+            <option value="Jun">June</option>
+            <option value="Jul">July</option>
+            <option value="Aug">August</option>
+            <option value="Sep">September</option>
+            <option value="Oct">October</option>
+            <option value="Nov">November</option>
+            <option value="Dec">December</option>
+          </select>
+          <select class="select" id="year" name="year" required></select>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
