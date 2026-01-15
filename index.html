@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Payroll</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="top-header">
+    <h1>Employee Payroll</h1>
+  </header>
+
+  <div class="form-content">
+    <form class="form">
+
+      <div class="form-head">
+        Employee Payroll Form
+      </div>
+
+      <div class="row-content">
+        <label class="label text" for="name">Name</label>
+        <input class="input" type="text" id="name" name="name" placeholder="Your name..." required />
+      </div>
+
+      <div class="row-content">
+        <label class="label text">Profile Image</label>
+
+        <div class="profile-radio-content">
+          <label>
+            <input type="radio" name="profile" value="assets/profile-1.png" required />
+            <img class="profile" src="assets/profile-1.png" alt="profile1" />
+          </label>
+
+          <label>
+            <input type="radio" name="profile" value="assets/profile-2.png" required />
+            <img class="profile" src="assets/profile-2.png" alt="profile2" />
+          </label>
+
+          <label>
+            <input type="radio" name="profile" value="assets/profile-3.png" required />
+            <img class="profile" src="assets/profile-3.png" alt="profile3" />
+          </label>
+
+          <label>
+            <input type="radio" name="profile" value="assets/profile-4.png" required />
+            <img class="profile" src="assets/profile-4.png" alt="profile4" />
+          </label>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
