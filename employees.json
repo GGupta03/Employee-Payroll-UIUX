@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Amarpa Shashanka Keerthi Kumar",
+    "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+    "gender": "Female",
+    "departments": ["Sales", "HR", "Finance"],
+    "salary": 10000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Mohammad Salman Iqbal Shaikh",
+    "profilePic": "https://randomuser.me/api/portraits/men/1.jpg",
+    "gender": "Male",
+    "departments": ["Sales", "Finance"],
+    "salary": 15000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Bubere Qais Mohammad Muzaffar",
+    "profilePic": "https://randomuser.me/api/portraits/men/25.jpg",
+    "gender": "Male",
+    "departments": ["HR", "Finance"],
+    "salary": 18000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Nisha Gupta",
+    "profilePic": "https://randomuser.me/api/portraits/women/34.jpg",
+    "gender": "Female",
+    "departments": ["Sales"],
+    "salary": 12000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Rahul Sharma",
+    "profilePic": "https://randomuser.me/api/portraits/men/52.jpg",
+    "gender": "Male",
+    "departments": ["Finance"],
+    "salary": 25000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Pooja Verma",
+    "profilePic": "https://randomuser.me/api/portraits/women/12.jpg",
+    "gender": "Female",
+    "departments": ["HR"],
+    "salary": 14000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Arjun Singh",
+    "profilePic": "https://randomuser.me/api/portraits/men/83.jpg",
+    "gender": "Male",
+    "departments": ["Sales", "HR"],
+    "salary": 22000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Simran Kaur",
+    "profilePic": "https://randomuser.me/api/portraits/women/41.jpg",
+    "gender": "Female",
+    "departments": ["Finance", "HR"],
+    "salary": 17000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Karan Mehta",
+    "profilePic": "https://randomuser.me/api/portraits/men/75.jpg",
+    "gender": "Male",
+    "departments": ["Sales", "Finance"],
+    "salary": 30000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  },
+  {
+    "name": "Ananya Mishra",
+    "profilePic": "https://randomuser.me/api/portraits/women/28.jpg",
+    "gender": "Female",
+    "departments": ["HR", "Sales", "Finance"],
+    "salary": 16000,
+    "startDate": "2019-10-29T00:00:00.000Z",
+    "notes": "Dummy employee from JSON"
+  }
+]

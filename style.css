@@ -1,0 +1,308 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #f4f6f9;
+}
+
+.top-header{
+  width: 100%;
+  background: white;
+  padding: 18px 30px;
+  border-bottom: 2px solid #eee;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+.logo-block{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img{
+  width: 34px;
+  height: 34px;
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.logo-green{
+  color: #6ca300;
+}
+
+.logo-black{
+  color: #333;
+}
+
+.form-content{
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form{
+  width: 720px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form-head{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #1f3c88;
+}
+
+.row-content{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.label{
+  min-width: 140px;
+  padding-top: 10px;
+}
+
+.text{
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+}
+
+.field-box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input{
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.textarea{
+  height: 100px;
+  resize: vertical;
+  padding-top: 10px;
+}
+
+.input:focus{
+  border-color: #1f3c88;
+  outline: none;
+}
+
+.error{
+  font-size: 12px;
+  font-weight: 700;
+  color: #d10b0b;
+  min-height: 16px;
+}
+
+.profile-radio-content{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 4px;
+}
+
+.profile-radio-content label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.profile{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.profile-radio-content input[type="radio"]:checked + .profile{
+  border-color: #1f3c88;
+}
+
+.choice-row{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  padding-top: 6px;
+}
+
+.choice-row.wrap{
+  flex-wrap: wrap;
+  row-gap: 12px;
+}
+
+.choice-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.salary-box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+.range{
+  width: 100%;
+}
+
+.salary-value{
+  font-size: 14px;
+  color: #1f3c88;
+  font-weight: 700;
+}
+
+.date-select-box{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.select{
+  min-width: 140px;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+}
+
+.select:focus{
+  border-color: #1f3c88;
+  outline: none;
+}
+
+.buttonParent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  gap: 12px;
+}
+
+.submit-reset{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn{
+  height: 44px;
+  padding: 0px 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+  user-select: none;
+}
+
+.btn-primary{
+  background: #1f3c88;
+  border: 1px solid #1f3c88;
+  color: white;
+}
+
+.btn-outline{
+  background: transparent;
+  border: 1px solid #1f3c88;
+  color: #1f3c88;
+}
+
+.btn-secondary{
+  background: transparent;
+  border: 1px solid #c7c7c7;
+  color: #555;
+}
+
+.success-text{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: green;
+  min-height: 18px;
+}
+
+@media only screen and (max-width: 960px){
+  .form{
+    width: 90%;
+    padding: 35px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .row-content{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .label{
+    min-width: auto;
+    padding-top: 0;
+  }
+
+  .submit-reset{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .buttonParent{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .btn{
+    width: 100%;
+  }
+}

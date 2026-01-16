@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Payroll UI/UX Design</title>
+  <link rel="stylesheet" href="employee-list.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <header class="list-header">
+    <div class="list-left">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135673.png" class="list-logo" alt="logo">
+      <div class="list-logo-text">
+        <span class="green">EMPLOYEE</span>
+        <span class="black">PAYROLL</span>
+      </div>
+    </div>
+
+    <div class="list-title">
+      Employee Payroll UI/UX Design
+    </div>
+  </header>
+
+  <section class="list-container">
+    <div class="list-top">
+      <div class="employee-title">Employee Details</div>
+
+      <div class="right-tools">
+        <button class="search-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="search" />
+        </button>
+
+        <a href="index.html" class="add-user-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="add" />
+        Add User
+        </a>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table class="employee-table">
+        <thead>
+          <tr>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>DEPARTMENT</th>
+            <th>SALARY</th>
+            <th>START DATE</th>
+            <th>ACTIONS</th>
+          </tr>
+        </thead>
+
+        <tbody id="employeeTableBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="employee-list.js"></script>
+</body>
+</html>
